@@ -61,6 +61,7 @@ export const PERSONAL_INFO = {
   college: "Rajalakshmi Institute of Technology",
   degree: "B.E – ARTIFICIAL INTELLIGENCE & MACHINE LEARNING",
   batch: "2024 – 2028 (Currently Pursuing)",
+  cgpa: "CGPA: 8.07",
   status: "Available for Internships",
   resumeUrl: "/resume.pdf",
 };

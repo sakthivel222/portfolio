@@ -737,9 +737,12 @@ export const HomePage: React.FC = () => {
               </div>
             </div>
 
-            <div className="flex flex-col md:items-end">
+            <div className="flex flex-col md:items-end gap-2">
               <span className="inline-block px-4 py-1.5 rounded-full bg-lime-400/10 text-lime-400 border border-lime-400/30 font-londrina text-[18px]">
                 {PERSONAL_INFO.batch}
+              </span>
+              <span className="inline-block px-4 py-1 rounded-full bg-lime-400 text-black font-londrina text-[17px] font-normal shadow-sm">
+                {PERSONAL_INFO.cgpa}
               </span>
             </div>
           </div>
